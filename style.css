@@ -1,0 +1,40 @@
+.imagem{
+    background: url(../imagens/book.jpg);
+    width: 500px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    /* background-size: contain; */
+
+}
+.texto{
+    text-align: center;
+    font-size: 25px;
+    color:#e0c9a3;
+    font-weight: bold;
+}
+body{
+    background: #0F4C5C
+}
+.nome{
+    text-align: center;
+    color: bisque;
+}
+
+.navegacao{
+    display: flex;
+}
+.navegacao li{
+    list-style: none;
+    margin-right: 150px;
+}
+.navegacao a{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.boxes{
+    color: beige;
+    margin-left: 100px;
+    text-decoration: wavy;
+    
+}
