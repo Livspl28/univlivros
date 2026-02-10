@@ -1,3 +1,62 @@
 .generos{
     text-align: center;
 }
+.catego{
+    text-align: center;
+    color: rgb(160, 100, 238);
+}
+.subti{
+    text-align: center;
+
+}
+body{ 
+    background: linear-gradient(to bottom, #053988, #a4a3df);
+}
+
+.container {
+  display: flex;
+  gap: 20px; /* espaço entre as boxes */
+}
+
+.box1{
+    
+    width: 250px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-image: url(.//imagens/boxfourth.jpg);
+    background-size: cover;
+   }
+
+.box2{
+    width: 250px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-image: url(.//imagens/boxacotar.jpg);
+    background-size: cover;
+}
+
+.box3{
+    width: 250px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-image: url(.//imagens/boxcaraval.jpg);
+    background-size: cover;
+}
+ .box4{
+    width: 250px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-image: url(.//imagens/boxhp.jpg);
+    background-size: cover;
+    }
+.informa{
+    color: antiquewhite;
+
+}
+    
+    
+    
