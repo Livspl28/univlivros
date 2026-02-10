@@ -1,10 +1,8 @@
 .imagem{
     background: url(../imagens/book.jpg);
-    width: 500px;
-    height: 100px;
-    background-size: cover;
-    background-position: center;
-    /* background-size: contain; */
+    width: 900px;
+    height: 150px;
+
 
 }
 .texto{
@@ -14,7 +12,8 @@
     font-weight: bold;
 }
 body{
-    background: #0F4C5C
+
+        background: radial-gradient(ellipse, #aa9079, #8B5E3C)
 }
 .nome{
     text-align: center;
@@ -35,6 +34,12 @@ body{
 .boxes{
     color: beige;
     margin-left: 100px;
+    text-decoration: wavy;
+    
+}
+.cadastro{
+    color: beige;
+    margin-left: 10px;
     text-decoration: wavy;
     
 }
