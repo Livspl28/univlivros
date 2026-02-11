@@ -1,7 +1,5 @@
 .imagem{
-    background: url(../imagens/book.jpg);
-    width: 900px;
-    height: 150px;
+    background-image: url(.//imagens/biblio.jpg);
 
 
 }
@@ -13,8 +11,9 @@
 }
 body{
 
-        background: radial-gradient(ellipse, #aa9079, #8B5E3C)
+ margin: 0;
 }
+
 .nome{
     text-align: center;
     color: bisque;
@@ -33,13 +32,71 @@ body{
 }
 .boxes{
     color: beige;
-    margin-left: 100px;
+    margin-left: 350px;
     text-decoration: wavy;
     
 }
 .cadastro{
     color: beige;
-    margin-left: 10px;
+    margin-left: 50px;
     text-decoration: wavy;
     
 }
+.meu-cabecalho{
+    background-color: #9c7c63;
+    height: 80px;
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    position: fixed;
+
+top: 0;
+left: 0;
+width: 100%;
+z-index: 1000;
+padding: 0 2ram;
+
+}
+
+.box{
+    align-items: center;
+    width: 600px;
+    height: 150px;
+    border: 3px solid  #3d5970;
+    border-radius: 10px;
+    background-color: #1f394e;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.box2{
+    width: 8000px;
+    height: 850px;
+    border: solid #4B3621;
+    border-style:none;
+    background-color: #4B3621;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2000px;
+}
+
+.titulo_especial {
+  font-family: 'Love Light', cursive;
+  font-weight: 100%;
+  font-style: normal;
+  color:#ceb996;
+  margin-left: 650px;
+  text-align: center;
+  font-size:80;
+}
+
