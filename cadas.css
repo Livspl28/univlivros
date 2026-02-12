@@ -1,4 +1,22 @@
-.titulo{
-    text-align: center;
-    color: rgb(114, 114, 160);
+.cor{
+    background-color: #4b2e25;
 }
+.email{
+    width: 150px;
+    height: 30px;
+}
+
+.senha{
+    width: 150px;
+    height: 30px;
+}
+
+
+.outfit-uniquifier{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: ;
+  font-style: normal;
+  color: rgb(170, 149, 123);
+}
+
