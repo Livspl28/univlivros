@@ -3,20 +3,16 @@
 }
 .catego{
     text-align: center;
-    color: rgb(160, 100, 238);
+    color: rgb(139, 119, 74);
 }
 .subti{
     text-align: center;
 
 }
 body{ 
-    background: linear-gradient(to bottom, #053988, #a4a3df);
+    background: linear-gradient(to bottom, #4b2a05, #6d452e);
 }
 
-.container {
-  display: flex;
-  gap: 20px; /* espaço entre as boxes */
-}
 
 .box1{
     
@@ -26,6 +22,7 @@ body{
     border-radius: 10px;
     background-image: url(.//imagens/boxfourth.jpg);
     background-size: cover;
+
    }
 
    .informa{
@@ -59,12 +56,40 @@ body{
     background-size: cover;
     }
 
+    .boxA{
+    width: 150px;
+    height: 65px;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 10px;
+    background-color:  rgb(219, 212, 186);;
+    background-size: cover;
+    
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  color: rgb(170, 149, 123);
+  text-align: center;
+    }
+    
+
+
+
+
+
+
+
+
+    .outfit-uniquifier{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: ;
+  font-style: normal;
+  color: rgb(170, 149, 123);
+}
+
     
     
     
 
-}
-    
-    
-    
 
