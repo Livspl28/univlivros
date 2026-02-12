@@ -1,7 +1,6 @@
 .imagem{
     background-image: url(.//imagens/biblio.jpg);
 
-
 }
 .texto{
     text-align: center;
@@ -30,41 +29,17 @@ body{
     color: #E5E7EB;
     text-decoration: none;
 }
-.boxes{
-    color: beige;
-    margin-left: 350px;
-    text-decoration: wavy;
-    
-}
-.cadastro{
-    color: beige;
-    margin-left: 50px;
-    text-decoration: wavy;
-    
-}
-.meu-cabecalho{
-    background-color: #9c7c63;
-    height: 80px;
-    display: flex;
-    justify-items: flex-start;
-    align-items: center;
-    position: fixed;
 
-top: 0;
-left: 0;
-width: 100%;
-z-index: 1000;
-padding: 0 2ram;
-
-}
 
 .box{
     align-items: center;
     width: 600px;
     height: 150px;
-    border: 3px solid  #3d5970;
+    border: 1px solid  #8B4513;
     border-radius: 10px;
-    background-color: #1f394e;
+    background-color: #5f3110;
+
+    
 }
 
 
@@ -73,14 +48,6 @@ padding: 0 2ram;
     justify-content: center;
     align-items: center;
     height: 200px;
-}
-
-.box2{
-    width: 8000px;
-    height: 850px;
-    border: solid #4B3621;
-    border-style:none;
-    background-color: #4B3621;
 }
 
 .container2{
@@ -95,8 +62,76 @@ padding: 0 2ram;
   font-weight: 100%;
   font-style: normal;
   color:#ceb996;
-  margin-left: 650px;
+  margin-left: 950px;
   text-align: center;
   font-size:80;
 }
+
+.atma-bold {
+  font-family: "Atma", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: rgb(163, 132, 84);
+text-shadow:5px 2px 5px #9c704c;
+}
+
+/* Menu principal */
+ul {
+    display: flex; /* substitui o float */
+    background: #9c7c63;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Cada item */
+li {
+    position: relative; /* necessário pro dropdown */
+}
+
+/* Links do menu */
+li a, .dropbtn {
+    display: block;
+    color: #b69b86;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Hover */
+li a:hover, .dropdown:hover .dropbtn {
+    background: #5f3110;
+}
+
+/* Caixa do dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #9c7c63;
+    min-width: 160px;
+}
+
+/* Links dentro do dropdown */
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    color: #b69b86;
+    text-align: left;
+}
+
+/* Hover dos itens do dropdown */
+.dropdown-content a:hover {
+    background: #5f3110;
+}
+
+/* Mostrar dropdown ao passar o mouse */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+  
+
 
