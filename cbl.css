@@ -1,0 +1,36 @@
+
+body{ 
+    background: linear-gradient(to bottom, #aa8a66, #6d452e);
+}
+
+.box1{
+    background-image: url(.//imagens/1.png);
+    width: 250px;
+    height: 300px;
+    background-position: center;
+    background-size:cover ;
+    border-radius: 10px;
+}
+
+.box2{
+    background-image: url(.//imagens/2.png);
+    width: 250px;
+    height: 300px;
+    background-position: center;
+    background-size:cover;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+     
+   
+
+    
+    
+    
+
+
+
