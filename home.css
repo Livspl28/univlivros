@@ -1,14 +1,31 @@
-.imagem{
-    background-image: url(.//imagens/biblio.jpg);
+.banner{
+    background-image: url(".//imagens/biblio.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-}
-.texto{
+    height: 590px;
+    width: 100%;
+
     text-align: center;
+    padding-top: 360px;
     font-size: 25px;
     color:#e0c9a3;
     font-weight: bold;
-    
 }
+
+
+    
+.box-banner{
+    background-color: rgba(99, 44, 7, 0.5); /* fundo transparente */
+    padding: 30px;
+    border-radius: 15px;
+    width: 60%;
+    align-items: center;
+}
+
+    
+
 body{
 
  margin: 0;
@@ -30,20 +47,6 @@ body{
     color: #E5E7EB;
     text-decoration: none;
 }
-
-
-.box{
-    align-items: center;
-    width: 600px;
-    height: 150px;
-    border: 1px solid  #8B4513;
-    border-radius: 10px;
-    background-color: #5f3110;
-
-    
-}
-
-
 .container {
     display: flex;
     justify-content: center;
@@ -68,7 +71,7 @@ body{
   font-size:80;
 }
 
-.atma-bold {
+.atma-bold{
   font-family: "Atma", system-ui;
   font-weight: 700;
   font-style: normal;
@@ -135,8 +138,8 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 .meu-rodape{
-    background-color: #331c0b;
-    color: #f3e6dd;
+    background-color:  #9c7c63;
+    color: #977c68;
     height: 90px;
     padding: 80 1rem;
     display: flex;
@@ -152,3 +155,23 @@ li a:hover, .dropdown:hover .dropbtn {
 .cadas{
     margin-left: 950px;
 }
+
+.box1{
+    align-items: center;
+    width: 1500px;
+    height: 280px;
+    border: 1px solid #85593a;
+    background-color: #85593a;
+
+    
+}
+
+.atma-bold2{
+  font-family: "Atma", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: rgb(255, 225, 161);
+
+}
+
