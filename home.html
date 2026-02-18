@@ -1,104 +1,184 @@
-<html>
+.banner{
+    background-image: url(".//imagens/biblio\ \(2\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-<head>
-    <title>Books</title>
-    <link rel="stylesheet" href=".//home.css">
+    height: 590px;
+    width: 100%;
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Love+Light&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Love+Light&family=Lovers+Quarrel&display=swap" rel="stylesheet">
-</head>
-
-<body>
-       
-<ul>
-    <li class="dropdown">
-        <a class="dropbtn" href="#">Nossos programas</a>
-
-        <div class="dropdown-content">
-            <a href="cdl.html" target="_blank">Clube do livro</a>
-            <a href="#">Seus comentários</a>
-            <a href="#">Nosso plano</a>
-        </div>
-    </li>
-
-    <li><a href="cadas.html" class="cadas">Cadastre-se</a></li>
-</ul>
-
-<div class="banner">Bem vindo à Lireon. Aqui você encontrará as mais mágicas, trágicas e fantásticas
-        histórias em páginas.
-        <div class="box-banner">
-        <h1>Lireon</h1>
-        <p>Seu universo literário.</p>
-    </div>
-    </div>
+    text-align: center;
+    padding-top: 360px;
+    font-size: 25px;
+    color:#e0c9a3;
+    font-weight: bold;
+}
 
 
-        <h1 class="titulo_especial">Lireon</h1>
-<hr>
 
-    <br><br><br><br>
+body{
 
-    <h1 class="titl">Por que criar o hábito de leitura?</h1>
+ margin: 0;
+ background-color: #9b8769;
+}
+
+.nome{
+    text-align: center;
+    color: bisque;
+}
+
+.navegacao{
+    display: flex;
+}
+.navegacao li{
+    list-style: none;
+    margin-right: 150px;
+}
+.navegacao a{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2000px;
+}
+
+.titulo_especial {
+  font-family: 'Love Light', cursive;
+  font-weight: 100%;
+  font-style: normal;
+  color:#ceb996;
+  margin-left: 1500px;
+  text-align: center;
+  font-size:80;
+}
+
+.atma-bold{
+  font-family: "Atma", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: rgb(163, 132, 84);
+text-shadow:5px 2px 5px #9c704c;
+}
+
+/* Menu principal */
+ul {
+    display: flex; /* substitui o float */
+    background: #9c7c63;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Cada item */
+li {
+    position: relative; /* necessário pro dropdown */
+}
+
+/* Links do menu */
+li a, .dropbtn {
+    display: block;
+    color: #68513f;
+    padding: 14px 26px;
+    text-decoration: none;
+    text-align: center;
    
-<h3 class="jornada">A leitura vai muito além do simples ato de passar os olhos pelas palavras. Ler é exercitar a mente, expandir horizontes e permitir que a imaginação viaje sem limites. Quando mergulhamos em uma história, nosso cérebro trabalha ativamente — criando cenários, entendendo emoções e desenvolvendo empatia pelos personagens.
+}
 
-O hábito da leitura fortalece a concentração, melhora o vocabulário e estimula o pensamento crítico. Cada livro traz novas perspectivas, culturas e formas de enxergar o mundo, ampliando nossa visão da realidade.
+/* Hover */
+li a:hover, .dropdown:hover .dropbtn {
+    background: #5f3110;
+}
 
-Além dos benefícios intelectuais, ler também faz bem emocionalmente. Os livros podem ser refúgio em momentos difíceis, companhia nos dias silenciosos e inspiração quando precisamos de motivação. Muitas vezes, encontramos nas páginas sentimentos que não sabíamos explicar — e isso cria uma conexão profunda com as histórias.
+/* Caixa do dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #9c7c63;
+    min-width: 160px;
+}
 
-Ler nos torna mais atentos, mais sensíveis e mais criativos. É um hábito que transforma, ensina e acolhe.
+/* Links dentro do dropdown */
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    color: #b4967f;
+    text-align: left;
+}
 
-Porque, no fim, a leitura não muda apenas o que sabemos — ela muda quem somos.</h3>
-<hr class="linha">
+/* Hover dos itens do dropdown */
+.dropdown-content a:hover {
+    background: #5f3110;
+}
 
-    </div><br><br><br><br>
+/* Mostrar dropdown ao passar o mouse */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
-    <h1 class="titl">Como tudo começou?</h1>
-    
-<h3 class="jornada">Minha jornada de leitura começou de forma simples, quase silenciosa. No início, os livros eram apenas curiosidade — algo que eu pegava para passar o tempo, sem imaginar que, aos poucos, eles se tornariam parte de quem eu sou.
+.meu-rodape{
+    background-color:  #9c7c63;
+    color: #977c68;
+    height: 90px;
+    padding: 80 1rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: static;
 
-Com o tempo, percebi que cada história me fazia sentir algo diferente. Algumas me confortavam, outras me desafiavam, e muitas me fizeram enxergar o mundo com novos olhos. Foi através das páginas que descobri que é possível viver mil vidas em uma só, viajar para lugares que nunca visitei e sentir emoções que talvez nunca tivesse experimentado.
+    text-align: left;
+    color: #e2cbac;
 
-A leitura deixou de ser apenas um hábito e se transformou em refúgio. Nos dias difíceis, era onde eu encontrava abrigo. Nos dias felizes, era onde eu encontrava ainda mais significado. Cada livro marcou uma fase, um sentimento, um momento.
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+ 
+.cadas{
+    margin-left: 950px;
+}
 
-Criar o Lireon é uma extensão dessa jornada. É a maneira que encontrei de compartilhar aquilo que os livros despertaram em mim — e de convidar outras pessoas a viverem essa experiência também.
+.box1{
+    align-items: center;
+    width: 1500px;
+    height: 210px;
+    border: 1px solid #85593a;
+    background-color: #85593a;
+    border-radius: 15px;
+  
+}
 
-Porque, no fim, minha jornada começou com um livro… e nunca mais terminou.</h3>
-<hr>
-            
-      
+.atma-bold2{
+  font-family: "Atma", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: rgb(70, 47, 32);
 
-<br><br><br><br><br><br><br><br><br><br><br><br>
-<div class="container">
-        <div class="box1">
-            <h4 class="atma-bold2"> Este site nasceu da minha necessidade de transformar minha paixão por livros em algo que pudesse ser compartilhado.
-Sempre acreditei que histórias têm o poder de mudar pessoas. Elas nos abraçam, nos desafiam, nos fazem chorar e crescer.
-Criar este espaço é uma forma de eternizar essa paixão e convidar outros leitores a viverem essa experiência comigo.
-Porque livros não são apenas páginas — são refúgios.
-E por saber também que eu não sou a única que se sente assim.
-Aqui é um lugar para vocês se sentirem à vontade para compartilharem suas experiências.</h4>
-        </div>
-    </div>
+}
 
-
-
-
-
-
-
-
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-<footer class="meu-rodape">
- Lireon © 2026<br>
-Seu universo literário.
-</footer>
-
-</body>
+.jornada{
+    color: #64462c;
+    text-align: center;
+}
+.titl{
+    color: #64462c;
+    text-align: center;
+}
+.linha{
+    color: #64462c;
+}
 
