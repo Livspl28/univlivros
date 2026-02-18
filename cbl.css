@@ -40,7 +40,7 @@ body{
 }
 
 .box5{
-    background-image: url(.//imagens/4.png);
+    background-image: url(.//imagens/3.png);
     width: 250px;
     height: 300px;
     background-position: center;
@@ -49,6 +49,24 @@ body{
 }
 
 .box6{
+    background-image: url(.//imagens/7.png);
+    width: 250px;
+    height: 300px;
+    background-position: center;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.box7{
+    background-image: url(.//imagens/4.png);
+    width: 250px;
+    height: 300px;
+    background-position: center;
+    background-size:cover;
+    border-radius: 10px;
+}
+
+.box8{
     background-image: url(.//imagens/8.png);
     width: 250px;
     height: 300px;
@@ -81,14 +99,24 @@ body{
     background-image: 
     linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
     url(.//imagens/cbl.png);
-    width: 1500px;
+    width: 1550px;
     height: 590px;
     background-position: center;
     background-size: cover;
 }
+    .titl{
+        color: #966549;
+        text-align: center;
+    }
+    .intui{
+        text-align: center;
+    }
     
-    
-    
+
+
+
+
+
 
 
 
